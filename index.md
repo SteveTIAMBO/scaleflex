@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JS Cloudimage Responsive Example with lazy load</title>
+    <title>Scaleflex Interview</title>
     <meta charset="UTF-8" />
   </head>
 
