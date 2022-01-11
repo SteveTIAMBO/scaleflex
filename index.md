@@ -16,8 +16,8 @@
 
     <!-- Change src to ci-src for the responsiveness -->
     <img ci-src="ricky-kharawala.jpg" ci-ratio="1.5" /></br>
-    <img ci-src="jp-valery.jpg" ci-ratio="1.9" /></br>
-    <img ci-src="kira-laktionov.jpg" ci-ratio="1.1" />
+    <img ci-src="jp-valery.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />
 
     <!-- To add the lazyload library -->
     <script>
@@ -37,7 +37,7 @@
         lazyLoading: true,
         queryString: '?size_info=1'
       });
-     //window.lazySizes.init();
+     window.lazySizes.init();
     </script>
   </body>
 </html>
