@@ -15,8 +15,8 @@
     
 
     <!-- Change src to ci-src for the responsiveness -->
-    <img ci-src="ricky-kharawala.jpg" ci-ratio="1.5" />
-    <img ci-src="jp-valery.jpg" ci-ratio="1.5" />
+    <img ci-src="ricky-kharawala.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="jp-valery.jpg" ci-ratio="1.5" /></br>
     <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />
 
     <!-- To add the lazyload library -->
@@ -33,9 +33,9 @@
     <script>
       var cloudimgResponsive = new window.CIResponsive({
         token: "demo",
-        baseUrl: "https://cloudimage.public.airstore.io/demo/"
-        //lazyLoading: true,
-        //queryString: '?size_info=1'
+        baseUrl: "https://cloudimage.public.airstore.io/demo/",
+        lazyLoading: true,
+        queryString: '?size_info=1'
       });
      //window.lazySizes.init();
     </script>
