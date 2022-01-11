@@ -32,6 +32,7 @@
         token: "demo",
         baseUrl: "https://cloudimage.public.airstore.io/demo/",
         lazyLoading: true
+        queryString: '?size_info=1'
       });
       window.lazySizes.init();
     </script>
