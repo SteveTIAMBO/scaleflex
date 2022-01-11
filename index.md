@@ -32,7 +32,7 @@
     <!-- To initialize cloudimage responsive plugin -->
     <script>
       var cloudimgResponsive = new window.CIResponsive({
-        token: "agnezucdmq",
+        token: "demo",
         baseUrl: "https://cloudimage.public.airstore.io/demo/"
         //lazyLoading: true,
         //queryString: '?size_info=1'
