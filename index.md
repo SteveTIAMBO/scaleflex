@@ -8,18 +8,18 @@
   <body>
     <h2>Steve's JS Cloudimage Responsive Demonstration</h2>
 
-    <!-- To add my standard images -->
-    <img src="https://cloudimage.public.airstore.io/demo/ricky-kharawala.jpg" /></br>
-    <img src="https://cloudimage.public.airstore.io/demo/jp-valery.jpg"  /></br>
-    <img src="https://cloudimage.public.airstore.io/demo/kira-laktionov.jpg" />
+    <!-- To add my standard images
+    <img src="https://cloudimage.public.airstore.io/demo/ricky-kharawala.jpg" /></br> -->
+    <!-- <img src="https://cloudimage.public.airstore.io/demo/jp-valery.jpg"  /></br> -->
+    <!-- <img src="https://cloudimage.public.airstore.io/demo/kira-laktionov.jpg" /> -->
     
 
-    <!-- Change src to ci-src for the responsiveness 
+    <!-- Change src to ci-src for the responsiveness -->
     <img ci-src="ricky-kharawala.jpg" ci-ratio="1.5" />
     <img ci-src="jp-valery.jpg" ci-ratio="1.5" />
-    <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />  -->
+    <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />
 
-    <!-- To add the lazyload library
+    <!-- To add the lazyload library 
     <script>
       window.lazySizesConfig = window.lazySizesConfig || {};
       window.lazySizesConfig.init = false;
@@ -33,11 +33,11 @@
     <script>
       var cloudimgResponsive = new window.CIResponsive({
         token: "agnezucdmq",
-        baseUrl: "https://digital.edufrem.com/wp-content/uploads/2022/01/",
-        lazyLoading: true,
-        queryString: '?size_info=1'
+        baseUrl: "https://cloudimage.public.airstore.io/demo/"
+        //lazyLoading: true,
+        //queryString: '?size_info=1'
       });
-      window.lazySizes.init();
+     //window.lazySizes.init();
     </script>
   </body>
 </html>
