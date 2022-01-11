@@ -1,3 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Cloudimage Responsive Example with lazy load</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h2>JS Cloudimage Responsive Example with lazy load</h2>
+
+    <!-- Change src to ci-src for your image -->
+    <img ci-src="alain.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="ameen-fahmy.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="tim-patch.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="veeterzy.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="dino-reichmuth.jpg" ci-ratio="1.5" /></br>
+    <img ci-src="inma-lesielle.jpg" ci-ratio="1.5" />
+
+    <!-- Add lazyload library -->
+    <script>
+      window.lazySizesConfig = window.lazySizesConfig || {};
+      window.lazySizesConfig.init = false;
+    </script>
+    <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
+
+    <!-- Add js-cloudimage-responsiv library -->
+    <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/4.5.0/js-cloudimage-responsive.min.js"></script>
+
+    <!-- Initialize cloudimage responsive -->
+    <script>
+      var cloudimgResponsive = new window.CIResponsive({
+        token: "demo",
+        baseUrl: "https://cloudimage.public.airstore.io/demo/",
+        lazyLoading: true
+      });
+      window.lazySizes.init();
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SteveTIAMBO/scaleflex/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
