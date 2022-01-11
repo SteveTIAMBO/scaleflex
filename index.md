@@ -9,14 +9,15 @@
     <h2>Steve's JS Cloudimage Responsive Demonstration</h2>
 
     <!-- To add my standard images -->
+    <img src="https://cloudimage.public.airstore.io/demo/ricky-kharawala.jpg" /></br>
+    <img src="https://cloudimage.public.airstore.io/demo/jp-valery.jpg"  /></br>
+    <img src="https://cloudimage.public.airstore.io/demo/kira-laktionov.jpg" />
     
-    <!-- Change src to ci-src for the responsiveness -->
-    <img ci-src="juice-bar-69.jpg" ci-ratio="1.5" />
-    <img ci-src="5.png" ci-ratio="1.5" />
-    <img ci-src="2.png" ci-ratio="1.5" />
-    <img ci-src="juice-bar-10.jpg" ci-ratio="1.5" />
-    <img ci-src="image-1.png" ci-ratio="1.5" />
-    <img ci-src="juice-bar-57.jpg" ci-ratio="1.5" />
+
+    <!-- Change src to ci-src for the responsiveness 
+    <img ci-src="ricky-kharawala.jpg" ci-ratio="1.5" />
+    <img ci-src="jp-valery.jpg" ci-ratio="1.5" />
+    <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />  -->
 
     <!-- To add the lazyload library
     <script>
