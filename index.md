@@ -19,12 +19,12 @@
     <img ci-src="jp-valery.jpg" ci-ratio="1.5" />
     <img ci-src="kira-laktionov.jpg" ci-ratio="1.5" />
 
-    <!-- To add the lazyload library 
+    <!-- To add the lazyload library -->
     <script>
       window.lazySizesConfig = window.lazySizesConfig || {};
       window.lazySizesConfig.init = false;
     </script>
-    <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script> -->
+    <script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-responsive/lazysizes.min.js"></script>
 
     <!-- To add the js-cloudimage-responsiv library -->
     <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/4.5.0/js-cloudimage-responsive.min.js"></script>
